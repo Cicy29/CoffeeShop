@@ -1,0 +1,173 @@
+/*style.css*/
+
+body{
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+h2 {font-family: 'Staatliches', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Fjalla One', sans-serif;
+
+}
+h4 { text-align: right;
+}
+a {
+  text-decoration: none
+  color: pink;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+section {
+	display: block;
+}
+
+/*CUSTOM DESIGN*/
+a.nav-item.nav-link {
+    margin: 30px;
+    background-color: rgb(242, 102, 9); ;
+    color: white;
+}
+.nav-item.nav-link.active { 
+  margin: 30px;
+    background-color: rgb(242, 102, 9) ;
+    color: white;
+}
+
+#banner {
+	text-align: center;
+	background-image: url("interior.jpeg");
+	background-size: cover;
+  image-rendering: auto;
+	padding: 155px;
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	font-family: 'Staatliches', cursive;
+	font-family: 'Indie Flower', cursive;
+}
+#banner h1 {
+  color: rgb(239, 97, 9);
+  text-align: center;
+  font-size: 95px;
+  font-weight: lighter;
+  opacity: 20px;
+}
+
+#footer  {
+  padding: 45px;
+  position: relative;
+  display: table;
+  width: 100%;
+  background: rgb(30,30,30);
+  color: black;
+  height: 10%;
+  background-size: cover;
+  color: lightgrey;
+}
+#footer h3 { 
+	text-align: left;
+	float: left;
+	padding-top: 20px;
+	 }
+
+#footer h4 { 
+	text-align: right;
+	float: right;
+	padding-top: 20px;
+	 }
+
+
+.section {
+padding: 10px;
+text-align: center;
+font-weight: lighter;
+}
+ 
+#tasty {
+	text-align: center;
+	color: white;
+	background-image: url("grainescafe.jpeg");
+	background-size: cover;
+    padding: 80px;
+    margin: 30px;
+}
+
+#ourcafe h2{
+	color: brown;
+	font-family: 'Staatliches', cursive;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Amatic SC', cursive;
+}
+
+#delivery {
+	text-align: center;
+	color: white;
+	background-image: url("croissant.jpeg");
+	background-size: cover;
+    padding: 80px;
+    margin: 30px;
+}
+
+#service {
+	text-align: center;
+	background-image: url("insidecafe.jpeg");
+	background-size: cover;
+    padding: 80px;
+    margin: 30px;
+	color: black;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+ i {
+  border: solid black;
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 30px;
+  margin: 60px;
+} 
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  
+}
+
+
+
+
+
