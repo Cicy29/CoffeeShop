@@ -6,14 +6,22 @@ body{
   color: black;
   font-size: 20px;
   font-family: Helvetica;
-}
+   }
+
 
 h2 {font-family: 'Staatliches', cursive;
 font-family: 'Indie Flower', cursive;
 font-family: 'Fjalla One', sans-serif;
 
 }
-h4 { text-align: right;
+
+h2 { text-align: center;
+
+}
+
+h6{ text-align: right;
+  color: white;
+  font-size: 20px;
 }
 a {
   text-decoration: none
@@ -44,7 +52,7 @@ a.nav-item.nav-link {
 	background-image: url("interior.jpeg");
 	background-size: cover;
   image-rendering: auto;
-	padding: 155px;
+	padding: 200px;
 	color: white;
 	text-shadow: 10px 10px 10px black;
 	font-family: 'Staatliches', cursive;
@@ -72,7 +80,7 @@ a.nav-item.nav-link {
 #footer h3 { 
 	text-align: left;
 	float: left;
-	padding-top: 20px;
+	padding-top: 15px;
 	 }
 
 #footer h4 { 
@@ -91,7 +99,7 @@ font-weight: lighter;
 #tasty {
 	text-align: center;
 	color: white;
-	background-image: url("grainescafe.jpeg");
+	background-image: url("sandy.jpeg");
 	background-size: cover;
     padding: 80px;
     margin: 30px;
@@ -153,20 +161,13 @@ font-weight: lighter;
   float: right;
 }
 
- i {
-  border: solid black;
-  border-width: 0 15px 15px 0;
-  display: inline-block;
-  padding: 30px;
-  margin: 60px;
-} 
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+.card-body {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 5px;
   
-}
-
+  }
 
 
 
