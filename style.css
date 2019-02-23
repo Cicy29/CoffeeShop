@@ -34,13 +34,15 @@ section {
 /*CUSTOM DESIGN*/
 a.nav-item.nav-link {
     margin: 30px;
-    background-color: rgb(242, 102, 9); ;
-    color: white;
+    background-color: rgb(50, 51, 63);
+    color: rgb(242, 102, 9);
+    
 }
 .nav-item.nav-link.active { 
-  margin: 30px;
-    background-color: rgb(242, 102, 9) ;
-    color: white;
+     margin: 30px;
+    background-color: rgb(50, 51, 63) ;
+    color: rgb(242, 102, 9);
+
 }
 
 #banner {
@@ -136,8 +138,5 @@ a.nav-item.nav-link {
   background-color: #4CAF50;
   color: white;
 }
-
-
-
 
 
