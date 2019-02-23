@@ -12,11 +12,7 @@ body{
 h2 {font-family: 'Staatliches', cursive;
 font-family: 'Indie Flower', cursive;
 font-family: 'Fjalla One', sans-serif;
-
-}
-
-h2 { text-align: center;
-
+text-align: center;
 }
 
 h6{ text-align: right;
@@ -89,12 +85,6 @@ a.nav-item.nav-link {
 	padding-top: 20px;
 	 }
 
-
-.section {
-padding: 10px;
-text-align: center;
-font-weight: lighter;
-}
  
 #tasty {
 	text-align: center;
@@ -105,32 +95,22 @@ font-weight: lighter;
     margin: 30px;
 }
 
-#ourcafe h2{
-	color: brown;
-	font-family: 'Staatliches', cursive;
-	font-family: 'Indie Flower', cursive;
-	font-family: 'Fjalla One', sans-serif;
-	font-family: 'Pacifico', cursive;
-	font-family: 'Dancing Script', cursive;
-	font-family: 'Amatic SC', cursive;
-}
-
 #delivery {
 	text-align: center;
 	color: white;
 	background-image: url("croissant.jpeg");
 	background-size: cover;
-    padding: 80px;
-    margin: 30px;
+  padding: 80px;
+  margin: 30px;
 }
 
 #service {
 	text-align: center;
-	background-image: url("insidecafe.jpeg");
+	background-image: url("pplcafe.jpg");
 	background-size: cover;
-    padding: 80px;
-    margin: 30px;
-	color: black;
+  padding: 80px;
+  margin: 30px;
+ color: black;
 }
 
 .topnav {
@@ -139,7 +119,7 @@ font-weight: lighter;
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -157,17 +137,6 @@ font-weight: lighter;
   color: white;
 }
 
-.topnav-right {
-  float: right;
-}
-
-.card-body {
-  text-align: center;
-  color: white;
-  padding: 5px;
-  margin: 5px;
-  
-  }
 
 
 
