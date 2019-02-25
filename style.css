@@ -6,7 +6,7 @@ body{
   color: black;
   font-size: 20px;
   font-family: Helvetica;
-   }
+}
 
 
 h2 {font-family: 'Staatliches', cursive;
@@ -19,7 +19,7 @@ h3{text-align: right;
   color: white;
   font-size: 20px; 
 }
-h4{ text-align: right;
+h5{ text-align: right;
   color: white;
   font-size: 20px;
 }
@@ -42,10 +42,9 @@ a.nav-item.nav-link {
     color: rgb(242, 102, 9);
 }
 .nav-item.nav-link.active { 
-     margin: 30px;
+    margin: 30px;
     background-color: rgb(50, 51, 63) ;
     color: rgb(242, 102, 9);
-
 }
 
 #banner {
@@ -58,13 +57,35 @@ a.nav-item.nav-link {
 	text-shadow: 10px 10px 10px black;
 	font-family: 'Staatliches', cursive;
 	font-family: 'Indie Flower', cursive;
+  /*ici rajout d'un position relatif pour utiliser cette div comme referentiel pour aligner les elements de la navbar*/ 
+  position: relative;
 }
 #banner h1 {
   color: rgb(239, 97, 9);
   text-align: center;
-  font-size: 95px;
+  font-size: 86px;
   font-weight: lighter;
   opacity: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+
+#banner p {
+  padding: 0;
+}
+
+.nav {
+  /*ici rajout dun positionement fixe ou absolu par rapport a la div banner et ensuite 2 alignements verticaux et horizontaux*/
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  margin-bottom: 0px;
+}
+
+.card {
+  border: none;
 }
 
 #footer  {
@@ -96,8 +117,8 @@ a.nav-item.nav-link {
 	color: white;
 	background-image: url("sandy.jpeg");
 	background-size: cover;
-    padding: 80px;
-    margin: 30px;
+  padding: 80px;
+  margin: 30px;
 }
 
 #delivery {
@@ -115,10 +136,10 @@ a.nav-item.nav-link {
 	background-size: cover;
   padding: 80px;
   margin: 30px;
- color: black;
+  color: black;
 }
 
-.topnav {
+/*.topnav {
     background-color: #333;
     overflow: hidden;
 }
@@ -140,11 +161,11 @@ a.nav-item.nav-link {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
+}*/
 
 i {
   border: solid black;
-  border-width: 0 10px 10px 0;
+  border-width: 0 1px 1px 0;
   display: inline-block;
   padding: 30px;
 }
