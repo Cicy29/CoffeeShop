@@ -15,7 +15,11 @@ font-family: 'Fjalla One', sans-serif;
 text-align: center;
 }
 
-h6{ text-align: right;
+h3{text-align: right;
+  color: white;
+  font-size: 20px; 
+}
+h4{ text-align: right;
   color: white;
   font-size: 20px;
 }
@@ -36,7 +40,6 @@ a.nav-item.nav-link {
     margin: 30px;
     background-color: rgb(50, 51, 63);
     color: rgb(242, 102, 9);
-    
 }
 .nav-item.nav-link.active { 
      margin: 30px;
@@ -137,6 +140,18 @@ a.nav-item.nav-link {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+i {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 30px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 
