@@ -1,0 +1,19 @@
+.column {
+  float: right;
+  width: 50%;
+  background-color: white;
+  background-size: cover
+  background-repeat: no-repeat;
+  
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+font-family: 'Merriweather', serif;

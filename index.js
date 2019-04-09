@@ -35,3 +35,4 @@ fetch('https://www.themealdb.com/api/json/v1/1/latest.php')
     console.log('Fetch Error :-S', err);
   });
 
+//const app = document.getElementById('banner')
