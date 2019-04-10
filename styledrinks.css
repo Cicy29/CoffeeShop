@@ -1,12 +1,22 @@
+body{
+  background-color: rgb(155, 144, 144)
+}
+
+
+h1 {
+	color:rgb(239, 97, 9);
+  font-family: 'Merriweather', serif;
+}
+
+
+
 .column {
   float: right;
   width: 50%;
-  background-color: white;
+  background-color: rgb(155, 144, 144);
   background-size: cover
   background-repeat: no-repeat;
   
-
-
 }
 
 /* Clear floats after the columns */
@@ -16,4 +26,5 @@
   clear: both;
 }
 
-font-family: 'Merriweather', serif;
+
+
