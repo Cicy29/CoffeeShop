@@ -1,0 +1,17 @@
+body{
+	background-image: url("partie.jpeg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: rgb(239, 97, 9);
+ text-align: center;
+ margin-top: 200px
+ margin-bottom: 80px;
+ padding-top: 80px
+
+}
+

@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(155, 144, 144)
+  background-color: rgb(42, 114, 3);
 }
 
 
@@ -13,7 +13,7 @@ h1 {
 .column {
   float: right;
   width: 50%;
-  background-color: rgb(155, 144, 144);
+  background-color: rgb(42, 114, 3);
   background-size: cover
   background-repeat: no-repeat;
   
